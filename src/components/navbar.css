@@ -1,0 +1,20 @@
+.icon-medium {
+    color: black;
+    font-size: 50px;
+    transition: transform 0.3s;
+}
+
+.icon-medium:hover {
+    animation: bounce 0.5s;
+    color: grey;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    background-color: beige;
+}
+
+

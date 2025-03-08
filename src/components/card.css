@@ -1,0 +1,16 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; /* Add a margin between the product cards */
+  }
+  .card1-content {
+    /* Your card content styles */
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card1-content:hover {
+    transform: scale(0.95);
+    transform-origin: center;
+  }
+  
